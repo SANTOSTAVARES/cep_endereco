@@ -1,6 +1,8 @@
 import requests
 
 def main() :
+    """Exibe dados de um CEP com base no input de seu respectivo número"""
+	
     buscar_cep = input("Informe o CEP.\nExemplo: 31200123\n")
 
     url = f'http://www.viacep.com.br/ws/{buscar_cep}/json/'
